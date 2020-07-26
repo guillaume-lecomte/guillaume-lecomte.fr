@@ -1,4 +1,4 @@
-function resumeApi() {
+export function resumeApi() {
   return fetch("https://www.guillaume-lecomte.fr/docs/resumeData.json", {
     method: "GET",
     headers: {
@@ -12,4 +12,13 @@ function resumeApi() {
     });
 }
 
-export default resumeApi;
+export function downloadResumeApi() {
+  return fetch("https://www.guillaume-lecomte.fr/docs/CV_fr.pdf", {
+    method: "GET",
+    responseType: "blob",
+  }).then((response) => {
+    const file = new Blob([response.data], { type: "application/pdf" });
+    const fileURL = URL.createObjectURL(file);
+    return fileURL;
+  });
+}

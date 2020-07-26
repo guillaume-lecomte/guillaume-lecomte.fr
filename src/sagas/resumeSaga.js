@@ -1,10 +1,22 @@
-import { call, put, takeLatest } from "redux-saga/effects";
+import { all, call, put, takeLatest } from "redux-saga/effects";
 import {
   RESUME_FETCH_REQUESTED,
   resumeFetchSucceeded,
   resumeFetchFailed,
+  RESUME_DOWNLOAD_REQUESTED,
+  resumeDownloadSucceeded,
+  resumeDownloadFailed,
 } from "../actions/resumeActions";
-import resumeApi from "../services/api";
+import { resumeApi, downloadResumeApi } from "../services/api";
+
+function* downloadResume() {
+  try {
+    const fileURL = yield call(downloadResumeApi);
+    yield put(resumeDownloadSucceeded(fileURL));
+  } catch (e) {
+    yield put(resumeDownloadFailed(e.message));
+  }
+}
 
 function* fetchResume() {
   try {
@@ -16,7 +28,10 @@ function* fetchResume() {
 }
 
 function* resumeSaga() {
-  yield takeLatest(RESUME_FETCH_REQUESTED, fetchResume);
+  yield all([
+    takeLatest(RESUME_FETCH_REQUESTED, fetchResume),
+    takeLatest(RESUME_DOWNLOAD_REQUESTED, downloadResume),
+  ]);
 }
 
 export default resumeSaga;

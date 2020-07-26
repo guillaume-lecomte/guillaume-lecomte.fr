@@ -5,10 +5,10 @@ import "./App.css";
 import Header from "./components/Header";
 import Footer from "./components/Footer";
 import About from "./components/About";
-// import Resume from "./Components/Resume";
-// import Contact from "./Components/Contact";
-// import Testimonials from "./Components/Testimonials";
-// import Portfolio from "./Components/Portfolio";
+import Resume from "./components/Resume";
+import Contact from "./components/Contact";
+import Testimonials from "./components/Testimonials";
+import Portfolio from "./components/Portfolio";
 
 class App extends Component {
   state = {
@@ -24,16 +24,18 @@ class App extends Component {
   render() {
     const { resume } = this.props;
     return !resume ? (
-      <Loader type="Puff" color="#00BFFF" height={100} width={100} />
+      <div className="App-loader-container">
+        <Loader type="Rings" color="#00BFFF" height={80} width={80} />
+      </div>
     ) : (
       <>
         <div className="App">
           <Header data={resume.main} />
-          <About data={resume.resume} />
-          {/* <Resume />
-          <Portfolio />
-          <Testimonials />
-          <Contact /> */}
+          <About data={resume.main} />
+          <Resume data={resume.resume} />
+          <Portfolio data={resume.portfolio} />
+          <Testimonials data={resume.testimonials} />
+          <Contact data={resume.main} />
           <Footer data={resume.main} />
         </div>
       </>

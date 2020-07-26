@@ -1,17 +1,17 @@
 {
   "main": {
     "name": "Guillaume LECOMTE",
-    "occupation": "(fullstack developer)",
-    "description": "Here will be your description. Use this to describe what you do or whatever you feel best describes yourself to a potential employer",
-    "image": "profilepic.jpg",
-    "bio": "Avec plus de 10 ans d'expérience dans le développement d'applications, d'abord spécialisé dans les technologies Microsoft .NET et le langage C#. Je me suis, par la suite, orienté dans le développement d'applications Web,ASP.Net MVC, .NET Core, AngularJS, et tout récemment ReactJS.",
-    "contactmessage": "Here is where you should write your message to readers to have them get in contact with you.",
+    "occupation": "(développeur Fullstack React / NodeJs / C#)",
+    "description": "",
+    "image": "",
+    "bio": "Fort de 10 années d'expériences professionnelles dans le développement d'applications. D'abord spécialisé dans les technologies Microsoft .NET, je me suis, par la suite, orienté dans le développement d'applications Web via ReactJS, React Native et NodeJs. Créatif, communicatif, team-builder à la fois à l'aise en mission autonome autant qu'en projets d'équipe pour délivrer des applicatifs de qualité pour répondre aux enjeux business de demain. ",
+    "contactmessage": "Vous pouvez me contacter ici",
     "email": "contact[at]guillaume-lecomte.fr",
     "phone": "",
     "address": {
       "street": "",
       "city": "Bordeaux",
-      "state": "",
+      "state": "France",
       "zip": ""
     },
     "website": "http://www.guillaume-lecomte.fr/",
@@ -19,7 +19,7 @@
     "social": [
       {
         "name": "linkedin",
-        "url": "http://www.linkedin.com/in/guillaumelecomtefr/en",
+        "url": "http://www.linkedin.com/in/guillaumelecomtefr",
         "className": "fa fa-linkedin"
       },
       {
@@ -33,30 +33,30 @@
     "skillmessage": "Here you can create a short write-up of your skills to show off to employers",
     "education": [
       {
-        "school": "University?",
-        "degree": "Masters in Beer tasting",
-        "graduated": "April 2007",
-        "description": "Describe your experience at school, what you learned, what useful skills you have acquired etc."
+        "school": "Lycée Parc de Vilgénis, Massy",
+        "degree": "BTS Informatique de GEstion",
+        "graduated": "2010",
+        "description": "Option développeur d'applications"
       },
       {
-        "school": "School #1 Maybe College?",
-        "degree": "What did you study 101",
-        "graduated": "March 2003",
-        "description": "Describe your experience at school, what you learned, what useful skills you have acquired etc."
+        "school": "Lycée Marguerite Yourcenar, Morangis",
+        "degree": "BAC STG",
+        "graduated": "2008",
+        "description": "Marketing & Communication"
       }
     ],
     "work": [
       {
         "company": "AZEO",
-        "title": "Fullstack développeur",
-        "years": "March 2013 - Actuel",
-        "description": "Describe work, special projects, notable achievements, what technologies you have been working with, and anything else that would be useful for an employer to know."
+        "title": "Développeur Fullstack React / NodeJs / C#",
+        "years": "Mars 2013 - Actuel",
+        "description": ""
       },
       {
         "company": "AVANADE",
         "title": "Développeur .NET",
-        "years": "Août 2010 2007 - Mars 2013",
-        "description": "Describe work, special projects, notable achievements, what technologies you have been working with, and anything else that would be useful for an employer to know."
+        "years": "Août 2010 - Mars 2013",
+        "description": ""
       }
     ],
     "skills": [
@@ -68,6 +68,10 @@
         "name": "ReactJs",
         "level": "80%"
       },
+	  {
+        "name": ".NET",
+        "level": "80%"
+      },
       {
         "name": "React Native",
         "level": "70%"
@@ -77,17 +81,12 @@
         "level": "70%"
       },
       {
-        "name": ".NET",
-        "level": "70%"
-      },
-      {
-        "name": "CSS",
-        "level": "60%"
-      },
-
-      {
         "name": "MongoDB",
         "level": "50%"
+      },
+	  {
+        "name": "Kubernetes",
+        "level": "20%"
       }
     ]
   },

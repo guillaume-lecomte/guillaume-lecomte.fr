@@ -17,31 +17,31 @@ class Header extends Component {
       <header id="home">
         <nav id="nav-wrap">
           <a className="mobile-btn" href="#nav-wrap" title="Show navigation">
-            Show navigation
+            Montrer la navigation
           </a>
           <a className="mobile-btn" href="#home" title="Hide navigation">
-            Hide navigation
+            Masquet la navigation
           </a>
 
           <ul id="nav" className="nav">
             <li className="current">
               <a className="smoothscroll" href="#home">
-                Home
+                Accueil
               </a>
             </li>
             <li>
               <a className="smoothscroll" href="#about">
-                About
+                A propos
               </a>
             </li>
             <li>
               <a className="smoothscroll" href="#resume">
-                Resume
+                CV
               </a>
             </li>
             <li>
               <a className="smoothscroll" href="#portfolio">
-                Works
+                Projets
               </a>
             </li>
             <li>
@@ -61,7 +61,7 @@ class Header extends Component {
           <div className="banner-text">
             <h1 className="responsive-headline">I'm {name}.</h1>
             <h3>
-              I'm a {address.city} based <span>{occupation}</span>.{" "}
+              Je suis <span>{occupation}</span> situé à {address.city} .{" "}
               {description}.
             </h3>
             <hr />

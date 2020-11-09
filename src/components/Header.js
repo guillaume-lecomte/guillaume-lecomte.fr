@@ -2,7 +2,7 @@ import React, { Component } from "react";
 
 class Header extends Component {
   render() {
-    const { name, occupation, description, address, social } = this.props.data;
+    const { name, occupation, address, social } = this.props.data;
     const networks = social.map((network) => {
       return (
         <li key={network.name}>
@@ -20,7 +20,7 @@ class Header extends Component {
             Montrer la navigation
           </a>
           <a className="mobile-btn" href="#home" title="Hide navigation">
-            Masquet la navigation
+            Masquer la navigation
           </a>
 
           <ul id="nav" className="nav">
@@ -49,20 +49,19 @@ class Header extends Component {
                 Testimonials
               </a>
             </li>
-            <li>
+            {/* <li>
               <a className="smoothscroll" href="#contact">
                 Contact
               </a>
-            </li>
+            </li> */}
           </ul>
         </nav>
 
         <div className="row banner">
           <div className="banner-text">
-            <h1 className="responsive-headline">I'm {name}.</h1>
+            <h1 className="responsive-headline">Je suis {name}.</h1>
             <h3>
-              Je suis <span>{occupation}</span> situé à {address.city} .{" "}
-              {description}.
+              Actuellement <span>{occupation}</span> situé à {address.city}.
             </h3>
             <hr />
             <ul className="social">{networks}</ul>

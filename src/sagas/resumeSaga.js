@@ -3,20 +3,8 @@ import {
   RESUME_FETCH_REQUESTED,
   resumeFetchSucceeded,
   resumeFetchFailed,
-  RESUME_DOWNLOAD_REQUESTED,
-  resumeDownloadSucceeded,
-  resumeDownloadFailed,
 } from "../actions/resumeActions";
-import { resumeApi, downloadResumeApi } from "../services/api";
-
-function* downloadResume() {
-  try {
-    const fileURL = yield call(downloadResumeApi);
-    yield put(resumeDownloadSucceeded(fileURL));
-  } catch (e) {
-    yield put(resumeDownloadFailed(e.message));
-  }
-}
+import { resumeApi } from "../services/api";
 
 function* fetchResume() {
   try {
@@ -28,10 +16,7 @@ function* fetchResume() {
 }
 
 function* resumeSaga() {
-  yield all([
-    takeLatest(RESUME_FETCH_REQUESTED, fetchResume),
-    takeLatest(RESUME_DOWNLOAD_REQUESTED, downloadResume),
-  ]);
+  yield all([takeLatest(RESUME_FETCH_REQUESTED, fetchResume)]);
 }
 
 export default resumeSaga;

@@ -6,7 +6,7 @@ import Header from "./components/Header";
 import Footer from "./components/Footer";
 import About from "./components/About";
 import Resume from "./components/Resume";
-import Contact from "./components/Contact";
+// import Contact from "./components/Contact";
 import Testimonials from "./components/Testimonials";
 import Portfolio from "./components/Portfolio";
 
@@ -35,7 +35,7 @@ class App extends Component {
           <Resume data={resume.resume} />
           <Portfolio data={resume.portfolio} />
           <Testimonials data={resume.testimonials} />
-          <Contact data={resume.main} />
+          {/* TODO later <Contact data={resume.main} /> */}
           <Footer data={resume.main} />
         </div>
       </>

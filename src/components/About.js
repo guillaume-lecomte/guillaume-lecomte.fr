@@ -7,8 +7,6 @@ class About extends Component {
       bio,
       street,
       city,
-      state,
-      zip,
       image,
       phone,
       email,
@@ -38,18 +36,18 @@ class About extends Component {
                   <span>
                     {street}
                     <br />
-                    {city} {state}, {zip}
+                    {city}
                   </span>
                   <br />
                   <span>{phone}</span>
                   <br />
-                  <span>{email}</span>
+                  <span>Email: {email}</span>
                 </p>
               </div>
               <div className="columns download">
                 <p>
-                  <a href={resumeDownload} className="button">
-                    <i className="fa fa-download"></i>Télécharger mon CV
+                  <a href={`docs/${resumeDownload}`} className="button">
+                    <i className="fa fa-download"></i>Télécharger mon CV (PDF)
                   </a>
                 </p>
               </div>

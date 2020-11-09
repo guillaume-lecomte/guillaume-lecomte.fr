@@ -1,139 +1,119 @@
 {
-  "main": {
-    "name": "Guillaume LECOMTE",
-    "occupation": "(développeur Fullstack React / NodeJs / C#)",
-    "description": "",
-    "image": "",
-    "bio": "Fort de 10 années d'expériences professionnelles dans le développement d'applications. D'abord spécialisé dans les technologies Microsoft .NET, je me suis, par la suite, orienté dans le développement d'applications Web via ReactJS, React Native et NodeJs. Créatif, communicatif, team-builder à la fois à l'aise en mission autonome autant qu'en projets d'équipe pour délivrer des applicatifs de qualité pour répondre aux enjeux business de demain. ",
-    "contactmessage": "Vous pouvez me contacter ici",
-    "email": "contact[at]guillaume-lecomte.fr",
-    "phone": "",
-    "address": {
-      "street": "",
-      "city": "Bordeaux",
-      "state": "France",
-      "zip": ""
-    },
-    "website": "http://www.guillaume-lecomte.fr/",
-    "resumedownload": "http://guillaume-lecomte.fr/docs/CV_fr.pdf",
-    "social": [
-      {
-        "name": "linkedin",
-        "url": "http://www.linkedin.com/in/guillaumelecomtefr",
-        "className": "fa fa-linkedin"
+   "main":{
+      "name":"Guillaume LECOMTE",
+      "occupation":"(développeur Fullstack React / C#)",
+      "description":"",
+      "image":"",
+      "bio":"Fort de 10 années d'expériences professionnelles dans le développement d'applications. D'abord spécialisé dans les technologies Microsoft .NET, je me suis, par la suite, orienté dans le développement d'applications Web via ReactJS, React Native et NodeJs. Créatif, communicatif, team-builder à la fois à l'aise en mission autonome autant qu'en projets d'équipe pour délivrer des applicatifs de qualité pour répondre aux enjeux business de demain. ",
+      "contactmessage":"Vous pouvez me contacter ici",
+      "email":"contact[at]guillaume-lecomte.fr",
+      "phone":"",
+      "address":{
+         "street":"",
+         "city":"Bordeaux",
+         "state":"France",
+         "zip":""
       },
-      {
-        "name": "github",
-        "url": "https://github.com/guillaume-lecomte",
-        "className": "fa fa-github"
-      }
-    ]
-  },
-  "resume": {
-    "skillmessage": "Here you can create a short write-up of your skills to show off to employers",
-    "education": [
-      {
-        "school": "Lycée Parc de Vilgénis, Massy",
-        "degree": "BTS Informatique de GEstion",
-        "graduated": "2010",
-        "description": "Option développeur d'applications"
-      },
-      {
-        "school": "Lycée Marguerite Yourcenar, Morangis",
-        "degree": "BAC STG",
-        "graduated": "2008",
-        "description": "Marketing & Communication"
-      }
-    ],
-    "work": [
-      {
-        "company": "AZEO",
-        "title": "Développeur Fullstack React / NodeJs / C#",
-        "years": "Mars 2013 - Actuel",
-        "description": ""
-      },
-      {
-        "company": "AVANADE",
-        "title": "Développeur .NET",
-        "years": "Août 2010 - Mars 2013",
-        "description": ""
-      }
-    ],
-    "skills": [
-      {
-        "name": "HTML5",
-        "level": "80%"
-      },
-      {
-        "name": "ReactJs",
-        "level": "80%"
-      },
-	  {
-        "name": ".NET",
-        "level": "80%"
-      },
-      {
-        "name": "React Native",
-        "level": "70%"
-      },
-      {
-        "name": "Git",
-        "level": "70%"
-      },
-      {
-        "name": "MongoDB",
-        "level": "50%"
-      },
-	  {
-        "name": "Kubernetes",
-        "level": "20%"
-      }
-    ]
-  },
-  "portfolio": {
-    "projects": [
-      {
-        "title": "Canadian Wanderlust",
-        "category": "My Travel Blog for my post-university travels",
-        "image": "canadian-wanderlust.jpg",
-        "url": "https://www.canadianwanderlust.com"
-      },
-      {
-        "title": "Fury Fighting Gear",
-        "category": "(offline now) A fighting gear company I started",
-        "image": "fury-fighting-gear.jpg",
-        "url": "http://www.timbakerdev.com"
-      },
-      {
-        "title": "Original Thai Food",
-        "category": "Website I built for a restaurant I like in Thailand",
-        "image": "original-thai-food.jpg",
-        "url": "http://www.timbakerdev.com/originalthaifood.github.io"
-      },
-      {
-        "title": "Resume Website",
-        "category": "A React based resume website template",
-        "image": "resume-website.jpg",
-        "url": "http://www.timbakerdev.com"
-      },
-      {
-        "title": "Smirkspace",
-        "category": "(MVP Only) A React and Meteor based chat University project.",
-        "image": "smirkspace.jpg",
-        "url": "http://www.smirkspace.com"
-      }
-    ]
-  },
-  "testimonials": {
-    "testimonials": [
-      {
-        "text": "Here you should write some nice things that someone has said about you. No lies though, employers can tell when you are lying.",
-        "user": "Kareem Abdul Jabbar"
-      },
-      {
-        "text": "That Tim Baker must be one of the most brilliant developers I've ever met! It is amazing that nobody has hired him yet. Hey you, you should hire this guy, he may be fresh out of University and have zero on the job experience but I am confident that he will be one of your best developers in no time!",
-        "user": "Steve Wozniak... impersonator"
-      }
-    ]
-  }
+      "website":"http://www.guillaume-lecomte.fr/",
+      "resumedownload":"http://guillaume-lecomte.fr/docs/CV_fr.pdf",
+      "social":[
+         {
+            "name":"linkedin",
+            "url":"http://www.linkedin.com/in/guillaumelecomtefr",
+            "className":"fa fa-linkedin"
+         },
+         {
+            "name":"github",
+            "url":"https://github.com/guillaume-lecomte",
+            "className":"fa fa-github"
+         }
+      ]
+   },
+   "resume":{
+      "skillmessage":"Développeur fullstack React/C#",
+      "education":[
+         {
+            "school":"Lycée Parc de Vilgénis, Massy",
+            "degree":"BTS Informatique de GEstion",
+            "graduated":"2010",
+            "description":"Option développeur d'applications"
+         },
+         {
+            "school":"Lycée Marguerite Yourcenar, Morangis",
+            "degree":"BAC STG",
+            "graduated":"2008",
+            "description":"Marketing & Communication"
+         }
+      ],
+      "work":[
+         {
+            "company":"AZEO Bordeaux",
+            "title":"Développeur Fullstack React / C#",
+            "years":"Mars 2013 - Actuel",
+            "description":""
+         },
+         {
+            "company":"AVANADE France",
+            "title":"Développeur .NET",
+            "years":"Août 2010 - Mars 2013",
+            "description":""
+         }
+      ],
+      "skills":[
+         {
+            "name":"HTML5",
+            "level":"90%"
+         },
+         {
+            "name":"ReactJs",
+            "level":"80%"
+         },
+         {
+            "name":".NET",
+            "level":"85%"
+         },
+         {
+            "name":"Git",
+            "level":"70%"
+         },
+         {
+            "name":"React Native",
+            "level":"70%"
+         },
+         {
+            "name":"MongoDB",
+            "level":"50%"
+         },
+         {
+            "name":"Team Management",
+            "level":"25%"
+         },
+         {
+            "name":"Docker / Kubernetes",
+            "level":"20%"
+         }
+      ]
+   },
+   "portfolio":{
+      "projects":[
+         {
+            "title":"Russie Aquitaine",
+            "category":"Site de l'association Franco-Russe Russie Aquitaine, basée à Bordeaux",
+            "image":"http://guillaume-lecomte.fr/images/logo_ra.jpg",
+            "url":"http://www.russie-aquitaine.com"
+         }
+      ]
+   },
+   "testimonials":{
+      "testimonials":[
+         {
+            "text":"Here you should write some nice things that someone has said about you. No lies though, employers can tell when you are lying.",
+            "user":"Kareem Abdul Jabbar"
+         },
+         {
+            "text":"That Tim Baker must be one of the most brilliant developers I've ever met! It is amazing that nobody has hired him yet. Hey you, you should hire this guy, he may be fresh out of University and have zero on the job experience but I am confident that he will be one of your best developers in no time!",
+            "user":"Steve Wozniak... impersonator"
+         }
+      ]
+   }
 }

@@ -1,2 +1,3 @@
-# resume-website
-Resume, portfolio for guillaume-lecomte.fr
+## guillaume-lecomte.fr
+
+Personal website guillaume-lecomte.fr created in ReactJs
